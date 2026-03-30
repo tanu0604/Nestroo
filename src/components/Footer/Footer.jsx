@@ -25,11 +25,7 @@ export default function Footer() {
   const contactInfo = [
     { icon: Phone, label: "+91 84209 06352", href: "tel:+918697876391" },
     { icon: Phone, label: "+91 95582 14868", href: "tel:+919330191139" },
-<<<<<<< HEAD
-    // { icon: Mail, label: "saleslluxeliving@gmail.com", href: "mailto:connect@lluxeliving.co.in" },
-=======
     { icon: Mail, label: "saleslluxeliving@gmail.com", href: "mailto:connect@lluxeliving.co.in" },
->>>>>>> b186ca2a172c690079dfdbb02bb7328d1abba054
   ];
 
   const socialLinks = [
@@ -96,14 +92,7 @@ export default function Footer() {
 
               {/* Brand Name */}
               <div>
-<<<<<<< HEAD
                 <Link to="/" className="inline-block group">
-=======
-                <Link
-                  to="/"
-                  className="inline-block group"
-                >
->>>>>>> b186ca2a172c690079dfdbb02bb7328d1abba054
                   <h2 className="font-serif text-3xl font-bold bg-gradient-to-r from-white via-amber-100 to-amber-300 bg-clip-text text-transparent mb-2 group-hover:from-amber-300 group-hover:to-amber-100 transition-all duration-500">
                     Nestroo
                   </h2>
@@ -221,45 +210,8 @@ export default function Footer() {
                 </div>
               </motion.div>
             </div>
-<<<<<<< HEAD
           </motion.div>
         </div>
-=======
-
-            {/* Social Links */}
-            {/* <div>
-              <p className="text-sm text-gray-400 mb-4">Follow us on social media</p>
-              <div className="flex gap-4">
-                {socialLinks.map((social, index) => {
-                  const Icon = social.icon;
-                  return (
-                    <motion.a
-                      key={index}
-                      href={social.href}
-                      target="_blank"
-                      rel="noreferrer"
-                      initial={{ opacity: 0, scale: 0 }}
-                      whileInView={{ opacity: 1, scale: 1 }}
-                      viewport={{ once: true }}
-                      transition={{ duration: 0.4, delay: 0.6 + index * 0.1 }}
-                      whileHover={{ scale: 1.1, y: -3 }}
-                      whileTap={{ scale: 0.95 }}
-                      className={`group relative w-12 h-12 rounded-full bg-white/5 border border-white/10 flex items-center justify-center ${social.color} hover:border-transparent transition-all duration-300 overflow-hidden`}
-                      aria-label={social.label}
-                    > */}
-                      {/* Glow Effect */}
-                      {/* <motion.div
-                        className="absolute inset-0 bg-gradient-to-br from-amber-400/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                      />
-                      <Icon className="relative z-10 w-5 h-5 text-gray-300 group-hover:text-white transition-colors duration-300" />
-                    </motion.a>
-                  );
-                })}
-              </div>
-            </div>
-          </motion.div>
-        </div> */}
->>>>>>> b186ca2a172c690079dfdbb02bb7328d1abba054
 
         {/* Divider */}
         <motion.div
@@ -326,9 +278,4 @@ export default function Footer() {
       />
     </footer>
   );
-<<<<<<< HEAD
 }
-=======
-
-}
->>>>>>> b186ca2a172c690079dfdbb02bb7328d1abba054
