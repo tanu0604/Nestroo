@@ -25,7 +25,7 @@ export default function Footer() {
   const contactInfo = [
     { icon: Phone, label: "+91 84209 06352", href: "tel:+918697876391" },
     { icon: Phone, label: "+91 95582 14868", href: "tel:+919330191139" },
-    // { icon: Mail, label: "saleslluxeliving@gmail.com", href: "mailto:connect@lluxeliving.co.in" },
+    { icon: Mail, label: "info@nestroo.co.in", href: "mailto:info@nestroo.co.in" },
   ];
 
   const socialLinks = [
